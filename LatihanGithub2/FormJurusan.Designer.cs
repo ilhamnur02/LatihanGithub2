@@ -34,7 +34,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.cmbJurusan = new System.Windows.Forms.ComboBox();
             this.btnSIMPAN = new System.Windows.Forms.Button();
-            this.btnKELUAR = new System.Windows.Forms.Button();
+            this.btnKEMBALI = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblJudul
@@ -97,21 +97,21 @@
             this.btnSIMPAN.Text = "SIMPAN";
             this.btnSIMPAN.UseVisualStyleBackColor = true;
             // 
-            // btnKELUAR
+            // btnKEMBALI
             // 
-            this.btnKELUAR.Location = new System.Drawing.Point(496, 317);
-            this.btnKELUAR.Name = "btnKELUAR";
-            this.btnKELUAR.Size = new System.Drawing.Size(103, 40);
-            this.btnKELUAR.TabIndex = 6;
-            this.btnKELUAR.Text = "KELUAR";
-            this.btnKELUAR.UseVisualStyleBackColor = true;
+            this.btnKEMBALI.Location = new System.Drawing.Point(496, 317);
+            this.btnKEMBALI.Name = "btnKEMBALI";
+            this.btnKEMBALI.Size = new System.Drawing.Size(103, 40);
+            this.btnKEMBALI.TabIndex = 6;
+            this.btnKEMBALI.Text = "KEMBALI";
+            this.btnKEMBALI.UseVisualStyleBackColor = true;
             // 
             // FormJurusan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(729, 440);
-            this.Controls.Add(this.btnKELUAR);
+            this.Controls.Add(this.btnKEMBALI);
             this.Controls.Add(this.btnSIMPAN);
             this.Controls.Add(this.cmbJurusan);
             this.Controls.Add(this.textBox1);
@@ -133,6 +133,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ComboBox cmbJurusan;
         private System.Windows.Forms.Button btnSIMPAN;
-        private System.Windows.Forms.Button btnKELUAR;
+        private System.Windows.Forms.Button btnKEMBALI;
     }
 }
