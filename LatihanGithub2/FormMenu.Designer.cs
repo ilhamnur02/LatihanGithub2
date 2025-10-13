@@ -60,13 +60,13 @@
             // siswaToolStripMenuItem
             // 
             this.siswaToolStripMenuItem.Name = "siswaToolStripMenuItem";
-            this.siswaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.siswaToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.siswaToolStripMenuItem.Text = "Siswa";
             // 
             // jurusanToolStripMenuItem
             // 
             this.jurusanToolStripMenuItem.Name = "jurusanToolStripMenuItem";
-            this.jurusanToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.jurusanToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.jurusanToolStripMenuItem.Text = "Jurusan";
             // 
             // exitToolStripMenuItem
@@ -84,6 +84,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormMenu";
             this.Text = "FormMenu";
+            this.Load += new System.EventHandler(this.FormMenu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

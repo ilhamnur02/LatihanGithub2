@@ -16,5 +16,10 @@ namespace LatihanGithub2
         {
             InitializeComponent();
         }
+
+        private void FormMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
