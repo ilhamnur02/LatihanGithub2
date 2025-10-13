@@ -35,6 +35,8 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
+            this.btnLOGIN = new System.Windows.Forms.Button();
+            this.btnKEMBALI = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -51,7 +53,7 @@
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
-            this.lblUsername.Location = new System.Drawing.Point(59, 133);
+            this.lblUsername.Location = new System.Drawing.Point(77, 116);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(95, 20);
             this.lblUsername.TabIndex = 1;
@@ -59,7 +61,7 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(179, 130);
+            this.txtUsername.Location = new System.Drawing.Point(197, 113);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(226, 26);
             this.txtUsername.TabIndex = 2;
@@ -67,7 +69,7 @@
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(94, 178);
+            this.lblEmail.Location = new System.Drawing.Point(112, 161);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(60, 20);
             this.lblEmail.TabIndex = 3;
@@ -75,7 +77,7 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(179, 175);
+            this.txtEmail.Location = new System.Drawing.Point(197, 158);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(226, 26);
             this.txtEmail.TabIndex = 4;
@@ -83,7 +85,7 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(64, 222);
+            this.lblPassword.Location = new System.Drawing.Point(82, 205);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(90, 20);
             this.lblPassword.TabIndex = 5;
@@ -91,16 +93,36 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(179, 219);
+            this.txtPassword.Location = new System.Drawing.Point(197, 202);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(226, 26);
             this.txtPassword.TabIndex = 6;
+            // 
+            // btnLOGIN
+            // 
+            this.btnLOGIN.Location = new System.Drawing.Point(209, 274);
+            this.btnLOGIN.Name = "btnLOGIN";
+            this.btnLOGIN.Size = new System.Drawing.Size(85, 40);
+            this.btnLOGIN.TabIndex = 7;
+            this.btnLOGIN.Text = "LOGIN";
+            this.btnLOGIN.UseVisualStyleBackColor = true;
+            // 
+            // btnKEMBALI
+            // 
+            this.btnKEMBALI.Location = new System.Drawing.Point(328, 274);
+            this.btnKEMBALI.Name = "btnKEMBALI";
+            this.btnKEMBALI.Size = new System.Drawing.Size(95, 40);
+            this.btnKEMBALI.TabIndex = 8;
+            this.btnKEMBALI.Text = "KEMBALI";
+            this.btnKEMBALI.UseVisualStyleBackColor = true;
             // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(503, 362);
+            this.Controls.Add(this.btnKEMBALI);
+            this.Controls.Add(this.btnLOGIN);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.txtEmail);
@@ -124,6 +146,8 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Button btnLOGIN;
+        private System.Windows.Forms.Button btnKEMBALI;
     }
 }
 
